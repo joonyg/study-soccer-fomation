@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import Formation from './formation/formation'
-import { formation442, formation4123 } from './formation/formationDB';
-
+import { formation442, formation4123, formation3241 } from './formation/formationDB';
 interface PositionData {
   position: string;
   number: number;
@@ -27,6 +26,7 @@ function App() {
         <h1>축구 포메이션</h1>
         <button onClick={() => toggleFormation(formation442)}>4-4-2</button>
         <button onClick={() => toggleFormation(formation4123)}>4-3-3</button>
+        <button onClick={() => toggleFormation(formation3241)}>3-2-4-1</button>
         {/* 추가적인 포메이션 버튼들 */}
         <Formation formationData={currentfomation} />
       </div>

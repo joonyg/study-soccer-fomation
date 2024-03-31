@@ -33,3 +33,16 @@ export const formation4123: PositionData[] = [
   { position: "LW", number: 10, x: 75, y: 85 },
   { position: "FW", number: 11, x: 50, y: 90 },
 ];
+export const formation3241: PositionData[] = [
+  { position: "GK", number: 1, x: 50, y: 5 },
+  { position: "DF", number: 2, x: 35, y: 25 },
+  { position: "DF", number: 3, x: 50, y: 25 },
+  { position: "DF", number: 4, x: 65, y: 25 },
+  { position: "DMF", number: 5, x: 40, y: 50 },
+  { position: "DMF", number: 6, x: 60, y: 50 },
+  { position: "MF", number: 7, x: 40, y: 75 },
+  { position: "MF", number: 8, x: 60, y: 75 },
+  { position: "FW", number: 9, x: 30, y: 85 },
+  { position: "FW", number: 10, x: 50, y: 95 },
+  { position: "FW", number: 11, x: 70, y: 85 },
+];
